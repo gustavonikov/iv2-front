@@ -1,0 +1,28 @@
+#list-container {
+    width: 85%;
+
+    margin: 50px auto 20px;
+    padding: 30px;
+
+    border-radius: 8px;
+
+    background: #cecece;
+
+    text-align: center;
+}
+
+#list-title {
+    margin: 25px 0 20px;
+}
+
+#list-title h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.img-svg {
+    height: 30px;
+    width: 30px;
+
+    cursor: pointer;
+}

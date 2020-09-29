@@ -1,0 +1,114 @@
+{
+  "parked-cars": [
+    {
+      "placa": "QFD-5430",
+      "cor": "Branco",
+      "marca": "Chevrolet",
+      "modelo": "Ônix",
+      "momento_de_entrada": "18/09/2020 08:55:05",
+      "momento_de_saida": "25/08/2020 08:32:33",
+      "status": "true",
+      "id": 1
+    },
+    {
+      "placa": "QFD-5250",
+      "cor": "Preto",
+      "marca": "Chevrolet",
+      "modelo": "Prisma",
+      "momento_de_entrada": "18/09/2020 10:55:05",
+      "momento_de_saida": "25/08/2020 08:32:34",
+      "status": "true",
+      "id": 2
+    },
+    {
+      "placa": "AFD-3502",
+      "cor": "Prata",
+      "marca": "Fiat",
+      "modelo": "Uno",
+      "momento_de_entrada": "18/09/2020 09:34:05",
+      "momento_de_saida": "25/08/2020 08:32:34",
+      "status": "true",
+      "id": 3
+    },
+    {
+      "placa": "AHF-8582",
+      "cor": "Vermelho",
+      "marca": "Toyota",
+      "modelo": "Hilux",
+      "momento_de_entrada": "25/08/2020 06:28:24",
+      "momento_de_saida": "25/08/2020 08:32:35",
+      "status": "true",
+      "id": 4
+    },
+    {
+      "placa": "AJA-3412",
+      "cor": "Preto",
+      "marca": "Chevrolet",
+      "modelo": "Cruiser",
+      "momento_de_entrada": "25/08/2020 06:32:25",
+      "momento_de_saida": "25/08/2020 08:30:14",
+      "status": "true",
+      "id": 5
+    },
+    {
+      "placa": "BHT-8312",
+      "cor": "Branco",
+      "marca": "Ford",
+      "modelo": "Ka",
+      "momento_de_entrada": "25/08/2020 06:34:06",
+      "momento_de_saida": "25/08/2020 08:32:35",
+      "status": "true",
+      "id": 6
+    },
+    {
+      "placa": "SFH-2341",
+      "cor": "Vermelho",
+      "marca": "Fiat",
+      "modelo": "Uno",
+      "momento_de_entrada": "25/08/2020 06:34:54",
+      "momento_de_saida": "25/08/2020 08:32:35",
+      "status": "true",
+      "id": 7
+    },
+    {
+      "placa": "MNH-2954",
+      "cor": "Prata",
+      "marca": "Volkswagem",
+      "modelo": "Golf",
+      "momento_de_entrada": "25/08/2020 06:35:55",
+      "momento_de_saida": "25/08/2020 08:32:35",
+      "status": "true",
+      "id": 8
+    },
+    {
+      "placa": "AKL-254",
+      "cor": "Prata",
+      "marca": "Toyota",
+      "modelo": "Hilux",
+      "momento_de_entrada": "25/08/2020 06:40:13",
+      "momento_de_saida": "25/08/2020 08:32:35",
+      "status": "true",
+      "id": 9
+    },
+    {
+      "placa": "QFD-2345",
+      "cor": "Preto",
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "momento_de_entrada": "25/08/2020 06:44:19",
+      "momento_de_saida": "25/08/2020 08:32:36",
+      "status": "true",
+      "id": 10
+    },
+    {
+      "placa": "AHF-5382",
+      "cor": "Azul",
+      "marca": "Volkswagen",
+      "modelo": "Gol",
+      "momento_de_entrada": "25/08/2020 08:16:50",
+      "momento_de_saida": "25/08/2020 08:32:36",
+      "status": "true",
+      "id": 11
+    }
+  ]
+}

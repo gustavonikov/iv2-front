@@ -1,0 +1,27 @@
+#container-add-product {
+    width: 80%;
+
+    margin: 50px auto 0;
+    padding: 30px;
+
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+#container-add-product label {
+    font-weight: bold;
+}
+
+.btn-container {
+    width: 76%;
+
+    margin: 50px auto 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container button {
+    width: 110px;
+}

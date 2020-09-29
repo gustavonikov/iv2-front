@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+  
+#tasks-table {
+    margin-top: 50px;
+
+    font-size: 20px;
+
+    width: 800px;
+}
+
+.container input {
+    margin-top: 50px;
+
+    width: 300px;
+    height: 35px;
+
+    border-radius: 2px;
+
+    text-decoration: none;
+
+    border-style: solid;
+    border-color: #313030;
+    outline: none;
+
+    font-family: inherit;
+}
+  
+.App button {
+    height: 35px;
+    width: 90px;
+
+    border: 1px solid #313030;
+    border-radius: 6px;
+
+    font-weight: bold;
+    font-size: 17px;
+
+    cursor: pointer;
+
+
+    outline: none;
+}
+
+.container button {
+    margin-left: 5px;
+}
+
+.red-color {
+    color: #ff0000;
+}
+
+.green-color {
+    color: #008000;
+}
+

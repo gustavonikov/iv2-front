@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tiranossauro",
+      "model": "Carnívoro",
+      "color": "Marrom",
+      "buyPrice": "3,50",
+      "sellPrice": "11,50",
+      "amount": 50
+    },
+    {
+      "id": 2,
+      "name": "Tricerátops",
+      "model": "Herbívoro",
+      "color": "Azul",
+      "buyPrice": "8,50",
+      "sellPrice": "10,50",
+      "amount": 50
+    },
+    {
+      "id": 3,
+      "name": "Estegossauro",
+      "model": "Herbívoro",
+      "color": "Verde",
+      "buyPrice": "3,50",
+      "sellPrice": "11,50",
+      "amount": 50
+    },
+    {
+      "id": 4,
+      "name": "Pterodáctilo",
+      "model": "Onívoro",
+      "color": "Cinza",
+      "buyPrice": "8,50",
+      "sellPrice": "10,50",
+      "amount": 50
+    },
+    {
+      "id": 5,
+      "name": "Velociraptor",
+      "model": "Carnívoro",
+      "color": "Marrom",
+      "buyPrice": "3,50",
+      "sellPrice": "11,50",
+      "amount": 50
+    }
+  ]
+}
