@@ -41,7 +41,8 @@ function AddProduct() {
     return (
         <div className="" id="container-add-product">
             <form action="" id="record-form" onSubmit={onSubmit} className="container mt-4">
-                <div className="text"><h4>Adicionar Novo Produto</h4>
+                <div className="text">
+                    <h4 className="font-weight-bolder">Adicionar Novo Produto</h4>
                     <div className="row mt-4">
                         <div className="col-md-4 mt-4">
                             <label htmlFor="name">Nome do Produto</label>

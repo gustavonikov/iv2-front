@@ -12,11 +12,11 @@ class NavBar extends Component {
         return (
             <BrowserRouter>
                 <Navbar bg="dark" variant="dark" expand="lg">
-                    <Link to="/">Home</Link>
+                    <Link className="mr-4 font-weight-bold text-decoration-none" to="/">Página Inicial</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <NavDropdown title="Produtos" id="basic-nav-dropdown">
+                            <NavDropdown className="font-weight-bold" title="Produtos" id="basic-nav-dropdown">
                                 <NavDropdown.Item><Link to="/addProduct">Entrada de Produtos</Link></NavDropdown.Item>
                                 <NavDropdown.Item><Link to="/listProducts">Listar Produtos</Link></NavDropdown.Item>
                             </NavDropdown>

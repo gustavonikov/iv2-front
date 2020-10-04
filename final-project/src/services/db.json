@@ -30,7 +30,7 @@
     {
       "id": 4,
       "name": "Pterodáctilo",
-      "model": "Onívoro",
+      "model": "Carnívoro",
       "color": "Cinza",
       "buyPrice": "8,50",
       "sellPrice": "10,50",
@@ -44,6 +44,15 @@
       "buyPrice": "3,50",
       "sellPrice": "11,50",
       "amount": 50
+    },
+    {
+      "id": 6,
+      "name": "Mosassauro",
+      "model": "Carnívoro",
+      "color": "Marrom",
+      "buyPrice": "8,50",
+      "sellPrice": "10,50",
+      "amount": 30
     }
   ]
 }
