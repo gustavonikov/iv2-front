@@ -5,7 +5,7 @@ class Home extends Component {
     render() {
         return (
             <div className="home-container">
-                <h1>Bem vindo ao meu exercício de lista de tarefas!</h1>
+                <h1>Bem vindo ao meu exemplo de uma simples lista de tarefas!</h1>
                 
                 <div className="penguin-container">
                     <div className="penguin">
