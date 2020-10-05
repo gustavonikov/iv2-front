@@ -20,7 +20,21 @@ code {
 }
 
 .link-class {
-  margin-left: 50px;
+  margin-left: 2.5rem;
 
-  font-size: 30px;
+  font-size: 1.8rem;
+
+  text-decoration: none;
+}
+
+@media (max-width: 780px) {
+  .link-class {
+    display: block;
+
+    margin-top: 1.2rem;
+    margin-left: 0;
+
+    text-align: center;
+    text-decoration: none;
+  }
 }

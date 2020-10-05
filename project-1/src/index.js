@@ -10,13 +10,13 @@ import People from './components/People';
 
 ReactDOM.render(
     <Router>
-      <Link className="link-class" to="/">Home</Link>
-      <Link className="link-class" to="/tasks">Tarefas</Link>
-      <Link className="link-class" to="/people">Pessoas</Link>
+        <Link className="link-class" to="/">Home</Link>
+        <Link className="link-class" to="/tasks">Tarefas</Link>
+        <Link className="link-class" to="/people">Pessoas</Link>
 
-      <Route exact path="/" component={Home} />
-      <Route path="/tasks" component={Tasks} />
-      <Route path="/people" component={People} />
+        <Route exact path="/" component={Home} />
+        <Route path="/tasks" component={Tasks} />
+        <Route path="/people" component={People} />
     </Router> ,
-  document.getElementById('root')
+    document.getElementById('root')
 );

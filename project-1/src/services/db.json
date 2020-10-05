@@ -2,15 +2,21 @@
     "people" : [
         {
             "id": 1,
-            "name": "Pedro"
+            "name": "Pedro Mariota",
+            "email": "pedromariota@sample.com",
+            "tel": "(83)99965-3432"
         },
         {
             "id": 2,
-            "name": "João"
+            "name": "João Henrique Vasconcelos",
+            "email": "joaohv@sample.com",
+            "tel": "(83)99642-6543"
         },
         {
             "id": 3,
-            "name": "Tiago"
+            "name": "Tiago Simões",
+            "email": "tsimoes@sample.com",
+            "tel": "(83)98765-8790"
         }
     ]
 }

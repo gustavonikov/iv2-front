@@ -30,6 +30,8 @@ class People extends Component {
             return (
                 <tr key={person.id}>
                     <td>{person.name}</td>
+                    <td>{person.email}</td>
+                    <td>{person.tel}</td>
                 </tr>
             );
         })
@@ -37,16 +39,21 @@ class People extends Component {
 
     render() {
         return(
-            <table id="table">
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {this.renderPeople()}
-                </tbody>
-            </table>
+            <div className="people-container">
+               <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                            <th>Telefone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {this.renderPeople()}
+                    </tbody>
+                </table> 
+            </div>
+            
         );
     }
 }
