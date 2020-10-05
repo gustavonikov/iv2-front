@@ -23,9 +23,9 @@ function Home() {
  
     return (
         <div className="text-center p-3 home">
-            <h1 className="title">Bem vindo à Loja Fake</h1>
-            <h4 className="mt-4">Abaixo estão alguns dos nossos produtos, confira!</h4>
-            <div className="row row-cols-1 row-cols-md-3 mx-5 mt-4">
+            <h2 className="title">Bem vindo à Loja Fake</h2>
+            <h5 className="mt-4">Abaixo estão alguns dos nossos produtos, confira!</h5>
+            <div className="row row-cols-1 row-cols-md-3 w-100 mx-auto mt-4">
                 {
                     products.map((item, index) => 
                         <div className="col mb-4">
