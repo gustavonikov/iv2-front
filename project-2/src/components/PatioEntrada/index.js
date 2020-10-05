@@ -5,7 +5,7 @@ import './index.css';
 
 class PatioEntrada extends Component {
     constructor(props) {
-        super(props);
+        super();
 
         this.state = {
             placa: '',
@@ -76,35 +76,32 @@ class PatioEntrada extends Component {
         return (
             <div id="cars-entry">
                 <div>
-                    <h4>Entrada de Veículos</h4>
+                    <h4 className="mb-3">Entrada de Veículos</h4>
                 </div>
-                <div className="row col-md-12">
-                    <div className="row">
-                        <div className="col-md-4">
-                            <span>Placa</span>
-                            <input type="text" onChange={(event) => { this.changeState(event); this.currentMoment(); }} value={this.state.placa} name="placa" className="form-control" />
-                        </div>
-                        <div className="col-md-4">
-                            <span>Cor</span>
-                            <input type="text" onChange={(event) => this.changeState(event)} value={this.state.cor} name="cor" className="form-control" />
-                        </div>
-                        <div className="col-md-4">
-                            <span>Marca</span>
-                            <input type="text" onChange={(event) => this.changeState(event)} value={this.state.marca} name="marca" className="form-control" />
-                        </div>
+                <div className="col-md-5 d-flex flex-column mw-100 align-items-center m-0">
+                    <div className="col-md-3">
+                        <span>Placa</span>
+                        <input type="text" onChange={(event) => { this.changeState(event); this.currentMoment(); }} value={this.state.placa} name="placa" className="form-control" />
                     </div>
-                    <div className="row">
-                        <div className="col-md-4">
-                            <span>Modelo</span>
-                            <input type="text" onChange={(event) => this.changeState(event)} value={this.state.modelo} name="modelo" className="form-control" />
-                        </div>
-                        <div className="col-md-4">
-                            <span>Momento de entrada</span>
-                            <input type="text" onChange={(event) => this.changeState(event)} value={this.state.momento_de_entrada} readOnly name="momento-de-entrada" className="form-control" />
-                        </div>
-                        <div className="col-md-4 mt-4">
-                            <button type="button" onClick={() => this.insertCar()} className="btn btn-success">Entrada</button>
-                        </div>
+                    <div className="col-md-3">
+                        <span>Cor</span>
+                        <input type="text" onChange={(event) => this.changeState(event)} value={this.state.cor} name="cor" className="form-control" />
+                    </div>
+                    <div className="col-md-3">
+                        <span>Marca</span>
+                        <input type="text" onChange={(event) => this.changeState(event)} value={this.state.marca} name="marca" className="form-control" />
+                    </div>
+
+                    <div className="col-md-3">
+                        <span>Modelo</span>
+                        <input type="text" onChange={(event) => this.changeState(event)} value={this.state.modelo} name="modelo" className="form-control" />
+                    </div>
+                    <div className="col-md-3">
+                        <span>Momento de entrada</span>
+                        <input type="text" onChange={(event) => this.changeState(event)} value={this.state.momento_de_entrada} readOnly name="momento-de-entrada" className="form-control" />
+                    </div>
+                    <div className="col-md-2 mt-4">
+                        <button type="button" onClick={() => this.insertCar()} className="btn btn-success w-100">Entrada</button>
                     </div>
                 </div>
             </div>
